@@ -209,6 +209,7 @@
 
 				editImage(img, function(msg)
 				{
+					console.log(msg)
 					setFullscreen(false);
 					var data = msg.data;
 
@@ -243,6 +244,7 @@
 
 	window.addEventListener('message', function(evt)
 	{
+		console.log(evt)
 		if (evt, evt.source === iframe.contentWindow)
 		{
 			var msg = JSON.parse(evt.data);
