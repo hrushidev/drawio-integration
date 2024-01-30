@@ -266,6 +266,10 @@
 			{
 				iframe.doUpdate(msg);
 			}
+			else if (msg.event == 'save' && iframe.doUpdate != null)
+			{
+				iframe.doUpdate(msg);
+			}
 			else if (msg.event == 'resize' && iframe.doResize != null)
 			{
 				iframe.doResize(msg);
