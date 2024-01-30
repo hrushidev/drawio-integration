@@ -244,10 +244,12 @@
 
 	window.addEventListener('message', function(evt)
 	{
-		console.log(evt)
+		
 		if (evt, evt.source === iframe.contentWindow)
 		{
+			console.log(evt)
 			var msg = JSON.parse(evt.data);
+			console.log(msg)
 
 			if (msg.event == 'init')
 			{

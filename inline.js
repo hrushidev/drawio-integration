@@ -245,8 +245,9 @@
 	{
 		if (evt, evt.source === iframe.contentWindow)
 		{
+			console.log(evt)
 			var msg = JSON.parse(evt.data);
-
+			console.log(msg)
 			if (msg.event == 'init')
 			{
 				for (var i = 0; i < diagrams.length; i++)
