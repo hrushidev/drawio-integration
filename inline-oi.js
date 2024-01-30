@@ -1,6 +1,6 @@
 (function()
 {
-	var editor = 'https://oa365staticcontent.z6.web.core.windows.net/development/src/main/webapp/index.html?embedInline=1&libraries=1';
+	var editor = 'https://oa365staticcontent.z6.web.core.windows.net/development/drawio/src/main/webapp/index.html?embedInline=1&libraries=1';
 	var iframe = document.createElement('iframe');
 	iframe.style.position = 'absolute';
 	iframe.style.border = '0';
